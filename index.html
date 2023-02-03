@@ -10,16 +10,16 @@
 <body>
     <header>
         <img src="https://cdn-icons-png.flaticon.com/512/5219/5219574.png" width="50" height="50" alt="lego">
-       <a href="footer"> <p>Main</p></a>
-        <p>Tours</p>
-        <p>Form</p>
-        <p>Contacts</p>
+       <a href="#footer"> <p>Main</p></a>
+        <a href="#tour"><p>Tours</p></a>
+       <a href="#form"> <p>Form</p></a>
+        <a href="#contact"><p>Contacts</p></a>
        <footer id="footer"> <h1>Тур по Франкфурту-на-Майні</h1></footer>
     </header>
     <main>
     <p>Франкфурт вважається світовим «альфа-містом» і є центром комерції, культури, освіти, туризму та транспортним вузлом. Разом з нами ви зможете відвідати найбільш яскраві музеї, відчути колорит цього міста та поглиблитися в казкову історію.</p>
-<img src="https://img.tourister.ru/files/1/9/4/5/9/0/7/2/original.jpg" width="250" height="200">
-<h2>Senckenberg Naturmuseum</h2>
+    <footer id="tour"><img src="https://img.tourister.ru/files/1/9/4/5/9/0/7/2/original.jpg" width="250" height="200"></footer>
+    <h2>Senckenberg Naturmuseum</h2>
 <p>У передмісті Франкфурта-на-Майні, неподалік від університету імені Гете, розташований Зенкенберзький музей природної історії. В даний час цей комплекс - один з найбільших навчальних та науково-дослідних установ такого рівня, який пропонує для ознайомлення унікальну експозицію, присвячену розвитку рослинного та тваринного світу на Землі.</p>
 
 <p>Щороку на екскурсії до залів Зенкенберзького музею природної історії приходить близько 500 000 осіб – природнича колекція цього комплексу вважається однією з найкращих у світі та найповнішою в Німеччині.</p>
@@ -52,7 +52,41 @@
 </p>
 <p>Для дітей віком від 4 років проводяться семінари та майстер-класи. Маленькі дослідники зможуть в інтерактивній формі вивчити історію комунікацій, спробувати надіслати повідомлення у різний спосіб, а також проявити свої творчі сторони.</p>
 <p>Ціна:15€</p>
-    </main>
+<footer id="form"><h2>Форма для замовлення</h2></footer>
+ <form action="#">
+<p>Звернення</p>
+<label>
+<input type="radio" name="gender">Mr.</label>
+<label>
+<input type="radio" name="gender">Mrs.</label>
+<p>Ім'я</p>
+<input type="text" placeholder="Введіть Ім'я" required>
+<p>Прізвище</p>
+<input type="text" placeholder="Введіть Прізвище"required>
+<p>Номер телефону</p>
+<input type="text" placeholder="Введіть номер телефону"required>
+<p>Тур</p>
+<label for="dino">
+<input id="dino" type="checkbox" name="personality">Senckenberg Naturmuseum</label>
+<label for="dino">
+<input id="dino" type="checkbox" name="personality">German Film Museum</label>
+<label for="dino">
+<input id="dino" type="checkbox" name="personality">Zoologischer Garten</label>
+<label for="dino">
+<input id="dino" type="checkbox" name="personality">Palmengarten</label>
+  <button type="submit">Надіслати</button>
+  </form>
+<footer id="contact"><h3>Контакти</h3></footer>
+<p>Frankfurt am Main</p>
+<p>Frankfurter Str.45 </p>
+<p>
+ <a href="tel=+497894563214" class="link1">+497894563214</a>
+</p>
+<p > <a href="mailto:nanusia618@gmail.com"
+        class="link">nanusia618@gmail.com</a> </p>
+
+
+   </main>
    
 </body>
 </html>
