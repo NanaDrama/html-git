@@ -1,4 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color:#6C646E;
+    --accent-color: #a6c7cf;
+    --h2-color: #454043;
+    --h2-family: 'Merienda One', cursive;
+    --p-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--text-color);
+}
+
+h1 {
+    color: #454043;
+    font-family: 'Merienda One', cursive;
+    font-size: 58px;
+}
+h2 {
+    
+    color: var(--h2-color);
+    font-family: var(--h2-family);
+}
+p {
+    color: var(--text-color);
+    font-family: var(--p-family);
+    font-size: 17px;
+}
+
 img {
     width: 100px;
-
 }
