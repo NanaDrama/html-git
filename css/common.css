@@ -1,37 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-
+ h1, h2 {
+  color: #454043;
+  font-family: 'Merienda One', cursive;
+ }
+ img {
+  width: 100%;
+ }
 :root {
-    --text-color:#6C646E;
-    --accent-color: #a6c7cf;
-    --h2-color: #454043;
-    --h2-family: 'Merienda One', cursive;
-    --p-family: 'Lato', sans-serif;
+    --title-color: #454043;
+    --text-color: rgb(88, 88, 88);
+    --icon-color: rgb(226, 32, 40);
+    --button-text-color: rgb(76, 99, 134);
+    --background-color: rgb(248, 219, 246);
+    --animation-button-color: rgb(150, 17, 17);
     scroll-behavior: smooth;
-    color: var(--text-color);
-}
-
-h1 {
-    color: #454043;
-    font-family: 'Merienda One', cursive;
-    font-size: 58px;
-}
-h2 {
-    
-    color: var(--h2-color);
-    font-family: var(--h2-family);
-}
-p {
-    color: var(--text-color);
-    font-family: var(--p-family);
-    font-size: 17px;
-}
-
-img {
-    width: 100px;
-}
+    --title-font: "Merienda One", cursive;
+    --text-font: 'Lato', sans-serif;
+    --link-font: 'Open Sans', sans-serif;
+    --button-text: 'Source Sans Pro', sans-serif;
+  }
+  
+  img {
+    width: 100%;
+    display: block;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
