@@ -1,0 +1,56 @@
+.sweet {
+    background-color: var(--background-color);
+    padding: 80px 10px;
+}
+.sweet__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+}
+.line__block {
+    width: 100%;
+    text-align: center;
+}
+.sweet__line {
+    color: var(--icon-color);
+    width: 30%;
+    margin: auto;
+}
+.sweet__weeding, .sweet__birthday, .sweet__candy, .sweet__cupcakes, .sweet__cheescakes, .sweet__other{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(231, 215, 215);
+    margin: 30px 10px;
+}
+.weeding__photo{
+    object-fit: cover;
+    height: 80%;
+}
+.weeding__title, .birthday__title, .cheescakes__title, .candy__title, .other__title, .cupcakes__title  {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.weeding__button, .birthday__button, .cheescakes__button, .cupcakes__button, .candy__button, .other__button {
+    font-family: var(--link-font);
+    color: var(--button-text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 0;
+    margin: auto;
+}
+.button__sweet {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .sweet__card{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+}
