@@ -7,27 +7,46 @@
     font-size: 34px;
     font-weight: 400;
 }
-.line__block {
-    width: 100%;
-    text-align: center;
+
+.sweet__card-container {
+        display: flex;
+        flex-direction: row;
 }
-.sweet__line {
-    color: var(--icon-color);
-    width: 30%;
-    margin: auto;
-}
-.sweet__weeding, .sweet__birthday, .sweet__candy, .sweet__cupcakes, .sweet__cheescakes, .sweet__other{
+.sweet__cards{
     padding: 25px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0px 0px 20px rgb(231, 215, 215);
     margin: 30px 10px;
+    max-height: 419px;
+    min-height: 410px; 
+    max-width: 290px;
+    min-width: 230px;
+    object-fit: cover;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25.5px;
+    justify-content: space-between;
 }
-.weeding__photo{
+.sweet__card-carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+}
+.card__prev, .card__next {
+    color: #000000;
+    border:none;  
+    cursor: pointer;
+       
+}
+.sweet__photo {
     object-fit: cover;
     height: 80%;
 }
-.weeding__title, .birthday__title, .cheescakes__title, .candy__title, .other__title, .cupcakes__title  {
+.cards__title {
     font-family: var(--title-font);
     color: var(--title-color);
     text-align: center;
@@ -35,7 +54,7 @@
     font-weight: 400;
     padding: 15px 0;
 }
-.weeding__button, .birthday__button, .cheescakes__button, .cupcakes__button, .candy__button, .other__button {
+.sweet__button {
     font-family: var(--link-font);
     color: var(--button-text-color);
     text-align: center;
