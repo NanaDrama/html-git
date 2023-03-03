@@ -1,10 +1,11 @@
 .follow, .follow__down {
-    background-color: black;
+    background-image: url("../images/background.jpeg");
     padding: 80px 30px 20px 30px;
+    margin: 0 0 20px 0;
 }
 .follow__down{
-    background-color: black;
-    padding: 70px 30px 20px 30px;
+    background-image: url("../images/background.jpeg");
+    padding: 80px 30px 20px 30px;
 }
 .vanila, .bossina, .emilijon{
     background-color: white;
