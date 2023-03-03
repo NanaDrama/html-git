@@ -36,13 +36,13 @@
     
     renderSlides(slides);
 
-       const nextButton = document.querySelector('.our__burgers-carousel-next');
+       const nextButton = document.querySelector('.card__next');
        nextButton.addEventListener('click', nextSlides);
    
-       const prevButton = document.querySelector('.our__burgers-carousel-prev');
+       const prevButton = document.querySelector('.card__prev');
        prevButton.addEventListener('click', prevSlide);
    
        window.addEventListener('resize', () => {
-           renderSlides(slides);
+          renderSlides(slides);
         });
 })();

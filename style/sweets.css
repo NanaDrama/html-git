@@ -28,11 +28,13 @@
     line-height: 25.5px;
     justify-content: space-between;
 }
-.sweet__card-carousel {
+.sweet__carousel {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+}
+.sweet__card-carousel {
+    align-items: center;
     margin: auto;
     width: 100%;
 }
@@ -40,6 +42,7 @@
     color: #000000;
     border:none;  
     cursor: pointer;
+    margin: auto;
        
 }
 .sweet__photo {

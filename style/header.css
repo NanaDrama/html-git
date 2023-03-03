@@ -4,8 +4,9 @@
     background-position: bottom;
     padding: 0 0 50px 0;
 }
-.navbar, .navbar-expand-lg, .bg-body-tertiary{
+.navbar.navbar-expand-lg.bg-body-tertiary{
     padding: 0;
+    background-image: url("../images/background.jpeg");
 }
 .navbar-nav{
     text-align: center;
