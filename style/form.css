@@ -37,7 +37,7 @@
     border-width: 2px;
     background-color: var(--form-color);
     padding: 10px 20px;
-    cursor: pointers;
+    cursor: pointer;
     font-size: 16px;
     font-family: var(--button-text);
     border-radius: 15px 50px 50px;
@@ -55,7 +55,7 @@
     border-width: 2px;
     background-color: var(--icon-color);
     padding: 10px 20px;
-    cursor: pointers;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     font-family: var(--button-text);
