@@ -44,6 +44,8 @@
 .card__prev, .card__next {
     color: #c93bb1;
     background-color: #11ffee00;
+    font-size: 20px;
+    font-weight: 800;
     border:none;  
     cursor: pointer;
     margin: auto;
