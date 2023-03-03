@@ -74,6 +74,7 @@
     }
     .banner__button{
         text-align: center;
+        display: block;
         margin: auto;
     }
 }
