@@ -36,10 +36,14 @@
 .sweet__card-carousel {
     align-items: center;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
 }
 .card__prev, .card__next {
-    color: #000000;
+    color: #c93bb1;
+    background-color: #11ffee00;
     border:none;  
     cursor: pointer;
     margin: auto;
