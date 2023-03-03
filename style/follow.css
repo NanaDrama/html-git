@@ -1,5 +1,5 @@
 .follow, .follow__down {
-    background-color: var(--background-color);
+    background-image: url("../images/background.jpeg");
     padding: 80px 30px 20px 30px;
 }
 .vanila, .bossina, .emilijon{
@@ -40,14 +40,13 @@
     width: 12%;
 }
 .follow__button {
-    display: flex;
-    color: var(--icon-color);
+    color: white;
     text-align: center;
-    height: 10%;
+    height: 45px;
     width: 250px;
     border-width: 2px;
-    background-color: white;
     border-color: var(--icon-color);
+    background-color: var(--icon-color);
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
@@ -57,15 +56,14 @@
     border-style: solid;
     box-sizing: border-box;
     border-image-repeat:stretch ;
-    margin: 20px auto;
+    display: block;
+    margin: auto;
 }
 .follow__button:hover {
-    background-color: var(--icon-color);
+    background-color: var(--animation-button-color);
     color: white;
+    border-color: var(--animation-button-color);
 }
-
-
-
 @media (min-width: 768px) {
     .follow {
         display: grid;

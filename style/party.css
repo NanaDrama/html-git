@@ -1,5 +1,5 @@
 .party {
-    background-color: var(--background-color);
+    background-image: url("../images/background.jpeg");
     padding: 40px 20px 70px 20px;
 }
 .party__right {

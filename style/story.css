@@ -54,7 +54,7 @@
     border-width: 2px;
     background-color: white;
     padding: 10px 20px;
-    cursor: pointer;
+    cursor: pointers;
     font-size: 16px;
     font-weight: bold;
     font-family: var(--button-text);

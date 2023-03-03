@@ -19,8 +19,9 @@
     --title-color: #454043;
     --text-color: rgb(88, 88, 88);
     --icon-color: rgb(226, 32, 40);
+    --form-color: #e6e3e3;
     --button-text-color: rgb(76, 99, 134);
-    --background-color: rgb(248, 219, 246);
+    --background-button-color: rgb(255, 200, 237);
     --animation-button-color: rgb(150, 17, 17);
     scroll-behavior: smooth;
     --title-font: "Merienda One", cursive;

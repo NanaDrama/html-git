@@ -1,5 +1,5 @@
 .sweet {
-    background-color: var(--background-color);
+    background-image: url("../images/background.jpeg");
     padding: 80px 10px;
 }
 .sweet__title {
