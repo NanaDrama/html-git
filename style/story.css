@@ -4,6 +4,7 @@
     border-radius: 7px;
     box-shadow: 0px 0px 20px rgb(211, 209, 209);
 }
+
 .story__photo {
     text-align: center;
     border-radius: 50%;
@@ -13,12 +14,14 @@
     margin: auto;
     padding: 30px 0;
 }
+
 .story__title {
     text-align: center;
     font-weight: 400;
     font-size: 22px;
-    margin: -5px 0 ;
+    margin: -5px 0;
 }
+
 .story__subtitle {
     font-family: var(--text-font);
     font-size: 20px;
@@ -28,9 +31,10 @@
     line-height: 30px;
     color: var(--title-color);
 }
+
 .story__text {
     font-size: 17px;
-    font-family: var(--text-font) ;
+    font-family: var(--text-font);
     color: var(--text-color);
     line-height: 30px;
     text-align: center;
@@ -44,8 +48,9 @@
     margin: 30px auto;
     gap: 10px;
     justify-content: space-evenly;
-    padding: 0 0 10px 10px ;
+    padding: 0 0 10px 10px;
 }
+
 .mystory__button {
     color: var(--title-color);
     text-align: center;
@@ -62,18 +67,21 @@
     border-style: solid;
     border-color: var(--icon-color);
     box-sizing: border-box;
-    border-image-repeat:stretch ;
+    border-image-repeat: stretch;
     display: block;
     margin: -10px auto;
 }
+
 .mystory__button:hover {
     background-color: var(--icon-color);
     color: white;
 }
+
 @media (min-width: 768px) {
     .story {
-        margin: 120px; 
+        margin: 120px;
     }
+
     .story__photo {
         width: 120px;
     }

@@ -1,10 +1,12 @@
 .footer {
     padding: 80px 20px 20px 20px;
 }
-.footer__logo{
+
+.footer__logo {
     width: 260px;
     margin: auto;
 }
+
 .footer__navigation {
     padding: 20px 0;
     margin: auto;
@@ -12,6 +14,7 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 .footer__nav {
     color: var(--title-color);
     text-align: center;
@@ -21,6 +24,7 @@
     font-size: 17px;
     font-family: var(--text-font);
 }
+
 .footer__media {
     width: 100%;
     padding: 10px;
@@ -28,9 +32,11 @@
     justify-content: center;
     margin: 10px;
 }
-.footer__media-icon{
+
+.footer__media-icon {
     padding: 7px;
 }
+
 .end__c,
 .end__d {
     color: var(--icon-color);

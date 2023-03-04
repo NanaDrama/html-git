@@ -1,11 +1,13 @@
 .filling {
     padding: 80px 10px 40px 10px;
 }
+
 .filling__title {
     font-weight: 400;
     font-size: 34px;
     text-align: center;
 }
+
 .tenderness,
 .strawberry,
 .pistachio {
@@ -15,6 +17,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(211, 209, 209);
 }
+
 .tenderness__title,
 .strawberry__title,
 .pistachio__title {
@@ -25,6 +28,7 @@
     text-align: center;
     color: var(--title-color);
 }
+
 .tenderness__price,
 .strawberry__price,
 .pistachio__price {
@@ -36,6 +40,7 @@
     font-size: 20px;
     font-family: var(--title-font);
 }
+
 .tenderness__text,
 .strawberry__text,
 .pistachio__text {
@@ -48,6 +53,7 @@
     margin: auto;
     padding: 0 10px;
 }
+
 .filling__button {
     display: flex;
     color: var(--text-color);
@@ -65,16 +71,18 @@
     border-radius: 15px 50px 50px;
     border-style: solid;
     box-sizing: border-box;
-    border-image-repeat:stretch ;
+    border-image-repeat: stretch;
     margin: 40px auto;
 }
+
 .filling__button:hover {
     background-color: var(--icon-color);
     border-color: var(--icon-color);
     color: white;
 }
+
 @media (min-width: 768px) {
-    .filling__blocks{
+    .filling__blocks {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
