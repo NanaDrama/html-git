@@ -54,6 +54,7 @@
     width: 100%;
     border-width: 2px;
     background-color: var(--icon-color);
+    border-color: var(--icon-color);
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
@@ -68,6 +69,7 @@
 }
 .form__button:hover {
     background-color: var(--animation-button-color);
+    border-color: var(--animation-button-color);
 }
 @media (min-width: 768px){
     .form{
