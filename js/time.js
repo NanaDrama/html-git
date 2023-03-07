@@ -1,4 +1,5 @@
-function getTimeRemaining(endtime) {
+(function () {
+    function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
     var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -40,3 +41,4 @@ function getTimeRemaining(endtime) {
   var deadline="January 01 2018 00:00:00 GMT+0300"; //for Ukraine
   var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
   initializeClock('countdown', deadline);
+})();
